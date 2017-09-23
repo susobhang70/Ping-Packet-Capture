@@ -5,13 +5,10 @@ This repo contains code on playing around and tinkering with ICMP Ping packets.
 
 *In all the three files, change the interface from `eth0` to the one on the machine that will run the executable*
 
-`make`  
-On machine A:  
-`# ./machine_a <details of machine b - MAC in ab:4f.. form>`
-On machine B:  
-`# ./machine_b <details of machine a - IP> <details of machine c - IP>`
-On machine C
-`# ./machine_c`
+- `make`
+- On machine A: `# ./machine_a <details of machine b - MAC in ab:4f.. form>`
+- On machine B: `# ./machine_b <details of machine a - IP> <details of machine c - IP>`
+- On machine C:	`# ./machine_c`
 
 **Notes**
 - Run as `root` or `sudo`
